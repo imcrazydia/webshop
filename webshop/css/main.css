@@ -1,0 +1,251 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color:  #f2f2f2;
+}
+.siteName{
+  text-align: center;
+  padding-top: 10px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  height: 80px;
+}
+.topnav { /* Navigatie */
+    background-color: #b3b3b3;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav {
+    position: absolute;
+    top: 64px;
+    width: 100%;
+}
+.cart {
+  width: 40px;
+  position: absolute;
+  top: 67px;
+  right: 40px;
+}
+.cart:hover {
+  background-color: #ddd;
+  color: black;
+}
+.container {
+  width: 100%;
+  margin: 2rem auto;
+  background-color: #f2f2f2;
+}
+.main {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(25, 5vw);
+  grid-gap: 1.5rem;
+}
+.shortMain {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+.shortMain:hover {
+  opacity: 0.8;
+}
+.shortText{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 7;
+  grid-row-end: 7;
+  text-align: center
+}
+.longMain {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+.longMain:hover {
+  opacity: 0.8;
+}
+.longText{
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 7;
+  grid-row-end: 7;
+  text-align: center
+}
+.hoodieMain {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+.hoodieMain:hover {
+  opacity: 0.8;
+}
+.hoodText{
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 7;
+  grid-row-end: 7;
+  text-align: center
+}
+.sweatMain {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 8;
+  grid-row-end: 10;
+}
+.sweatMain:hover {
+  opacity: 0.8;
+}
+.sweatText{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 13;
+  grid-row-end: 13;
+  text-align: center
+}
+.youthMain {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 8;
+  grid-row-end: 10;
+}
+.youthMain:hover {
+  opacity: 0.8;
+}
+.youthText{
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 13;
+  grid-row-end: 13;
+  text-align: center
+}
+.femaleMain {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 8;
+  grid-row-end: 10;
+}
+.femaleMain:hover {
+  opacity: 0.8;
+}
+.femaleText{
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 13;
+  grid-row-end: 13;
+  text-align: center
+}
+.tankMain {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 14;
+  grid-row-end: 16;
+}
+.tankMain:hover {
+  opacity: 0.8;
+}
+.tankText{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 19;
+  grid-row-end: 19;
+  text-align: center
+}
+.raglanMain {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 14;
+  grid-row-end: 16;
+}
+.raglanMain:hover {
+  opacity: 0.8;
+}
+.raglanText{
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 19;
+  grid-row-end: 19;
+  text-align: center
+}
+.poloMain {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 14;
+  grid-row-end: 16;
+}
+.poloMain:hover {
+  opacity: 0.8;
+}
+.poloText{
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 19;
+  grid-row-end: 19;
+  text-align: center
+}
+.performanceMain {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 20;
+  grid-row-end: 22;
+}
+.performanceMain:hover {
+  opacity: 0.8;
+}
+.performanceText{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 25;
+  grid-row-end: 25;
+  text-align: center
+}
+.limitedMain {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 20;
+  grid-row-end: 22;
+  opacity: 0.4;
+}
+/*.limitedMain:hover {
+  opacity: 0.8;
+}*/
+.limitedText{
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 25;
+  grid-row-end: 25;
+  text-align: center
+}
+.sold {
+  color: red;
+}
+.ftext {
+  text-align: center;
+  position: absolute;
+  left: 560px;
+  top: 18px;
+}
+footer{
+  position: absolute;
+  top: 346%;
+  width: 100%;
+  height: 60px;
+  background-color: #b3b3b3;
+}

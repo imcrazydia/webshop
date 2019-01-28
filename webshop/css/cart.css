@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color:  #f2f2f2;
+}
+.siteName{
+  text-align: center;
+  padding-top: 10px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  height: 80px;
+}
+.topnav { /* Navigatie */
+    background-color: #b3b3b3;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: #333333;
+    color: white;
+  }
+.topnav {
+    position: absolute;
+    top: 64px;
+    width: 100%;
+}
+.cart {
+  width: 40px;
+  position: absolute;
+  top: 67px;
+  right: 40px;
+}
+.cart:hover {
+  background-color: #ddd;
+  color: black;
+}
+.container {
+  width: 100%;
+  margin: 2rem auto;
+  background-color: #f2f2f2;
+}
+.main {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(10, 5vw);
+
+}
+.center{
+  background-color: #b3b3b3;;
+  border: solid;
+  border-color: #737373;
+  border-radius: 6px;
+  height: 700px;
+  grid-column-start: 1;
+  grid-column-end: 10;
+  grid-row-start: 2;
+  grid-row-end: 10;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.shopT {
+  position: absolute;
+  left: 585px;
+  top: 150px;
+  font-size: 60px;
+  text-decoration: underline;
+}
+.shop {
+  position: absolute;
+  left: 620px;
+  top: 320px;
+  text-align: center;
+}
+.ftext {
+  text-align: center;
+  position: absolute;
+  left: 560px;
+  top: 18px;
+}
+footer{
+  position: absolute;
+  top: 92%;
+  width: 100%;
+  height: 60px;
+  background-color: #b3b3b3;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MediaShirts - Shoppingcart</title>
+  <link rel="stylesheet" href="../css/cart.css">
+  <link rel="icon" type="image/jpeg" href="../images/shirt.png">
+</head>
+  <body>
+    <div class="siteName">
+      <a href="../index.html" class="siteName"><h1>MediaShirts</h1></a>
+    </div>
+
+    <div class="topnav"> <!-- Navigator  -->
+      <a href="../info/short.html">Short-Sleeved Shirts</a>
+      <a href="../info/long.html">Long-Sleeved Shirts</a>
+      <a href="../info/hood.html">Hoodies</a>
+      <a href="../info/sweat.html">Sweatshirts</a>
+      <a href="../info/youth.html">Youth</a>
+      <a href="../info/female.html">Female Shirts</a>
+      <a href="../info/tank.html">Tank Tops</a>
+      <a href="../info/raglan.html">Raglan Shirts</a>
+      <a href="../info/polo.html">Polo Shirts</a>
+      <a href="../info/performance.html">Performance Shirts</a>
+      <a>Limited offers</a>
+</div>
+  <a href="#home"><img class="cart" src="../images/cart.png"></a>
+ <h1 class="shopT">Shopping Cart</h1>
+<div class="shop">
+  <form action="../mediashirts_tonen.php" target="_blank" method="post">
+  <h1>Purchase Info</h1>
+  <p>Fill this in to get the right shirt that you want.</p>
+    <h3>Name: </h3><input type="text" name="name"/>
+
+  <h2>Choose your shirt</h2>
+  <p>select the shirt that you want:</p>
+  <select name="shirt">
+    <option>Choose your shirt</option>
+    <option name="shirt" value="short-Sleeved">Short-Sleeved</option>
+    <option name="shirt" value="long-Sleeved">Long-Sleeved</option>
+    <option name="shirt" value="hoodie">Hoodie</option>
+    <option name="shirt" value="sweatshirt">Sweatshirt</option>
+    <option name="shirt" value="youth">Youth</option>
+    <option name="shirt" value="female">Female</option>
+    <option name="shirt" value="tank-top">Tank-top</option>
+    <option name="shirt" value="raglan">Raglan</option>
+    <option name="shirt" value="polo">Polo</option>
+    <option name="shirt" value="performance">Performance</option>
+  </select>
+
+  <br>
+  <h2>Choose your shirt size</h2>
+  <p>select the size that you want:</p>
+  <select name="size">
+    <option>Choose your size</option>
+    <option name="size" value="s">S</option>
+    <option name="size" value="m">M</option>
+    <option name="size" value="l">L</option>
+    <option name="size" value="xl">XL</option>
+  </select>
+
+  <br>
+  <h2>Choose your color</h2>
+  <p>select the color that you want:</p>
+  <select name="color">
+    <option>Choose your color</option>
+    <option name="color" value="white">White</option>
+    <option name="color" value="black">Black</option>
+    <option name="color" value="red">Red</option>
+    <option name="color" value="blue">Blue</option>
+    <option name="color" value="green">Green(Raglan Only)</option>
+  </select>
+
+  <br><br>
+  <input type="submit" value="Submit"/>
+</form>
+</div>
+<footer>
+  <h2 class="ftext">Webshop made by Diaquino Fortmeier</h2>
+</footer>
+  </body>
+</html>
