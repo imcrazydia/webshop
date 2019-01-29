@@ -31,6 +31,7 @@ or die('Error connecting to MySQL server.');
        echo "ERROR: Could not able to execute $sql. " . mysqli_error($db);
      }
 
+     //select and remove 1 shirt from the database
      $sql = "SELECT * FROM shirts WHERE shirt = '$shirt' AND color = '$color'";
      $results = $db->query($sql);
 
@@ -39,6 +40,7 @@ or die('Error connecting to MySQL server.');
      }
      $instock = $instock - 1;
 
+     //update the database
      $sql = "UPDATE shirts SET $size = '$instock' WHERE shirt = '$shirt' AND color = '$color'";
      if(mysqli_query($db, $sql)) {
        echo "gelukt!";
